@@ -163,9 +163,10 @@
     }
     .scroll-hint span { font-size: .7rem; letter-spacing: .3em; color: var(--gold); text-transform: uppercase; }
     .scroll-arrow {
+      margin-top: 10px;
       width: 20px; height: 20px;
-      border-right: 1px solid var(--gold);
-      border-bottom: 1px solid var(--gold);
+      border-left: 1px solid var(--gold);
+      border-top: 1px solid var(--gold);
       transform: rotate(45deg);
       animation: bounce 1.5s ease infinite;
     }
@@ -248,6 +249,7 @@
       font-family: 'Playfair Display', serif;
       font-size: clamp(2.8rem, 8vw, 5rem);
       line-height: 1;
+      padding-bottom: 10px;
       background: linear-gradient(135deg, var(--gold-pale), var(--gold));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -269,7 +271,7 @@
       opacity: .4;
       line-height: 1.1;
       align-self: center;
-      padding-bottom: 1rem;
+      padding-bottom: 26px;
     }
 
     /* ── DETAILS CARDS ─────────────────────────────────── */
@@ -471,7 +473,7 @@
     .s-ring:nth-child(2) { width: 280px; height: 280px; animation-duration: 28s; animation-direction: reverse; border-style: dashed; }
     .splash-bismillah {
       font-family: 'Playfair Display', serif;
-      font-size: .85rem;
+      font-size: 21px;
       letter-spacing: .35em;
       color: var(--gold);
       text-transform: uppercase;
@@ -547,7 +549,7 @@
       <div class="s-ring"></div>
       <div class="s-ring"></div>
     </div>
-    <p class="splash-bismillah">Bismillahir Rohmanir Rohiym</p>
+    <p class="splash-bismillah">Assalomu alaykum</p>
     <div class="splash-names">Uchqun <span>&amp;</span> Maftuna</div>
     <p class="splash-sub">To'y taklifnomasiga xush kelibsiz</p>
     <button id="enter-btn">
@@ -590,7 +592,7 @@
   </div>
 
   <div class="scroll-hint">
-    <span>Pastga aylantiring</span>
+    <span>Yuqoriga suring</span>
     <div class="scroll-arrow"></div>
   </div>
 </div>
